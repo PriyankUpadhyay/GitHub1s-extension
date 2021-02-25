@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Github1s Extension",
+    "description": "This extension open a gihub repo in VS Code OSS",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "logo.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
+      ]
+  }
